@@ -92,6 +92,9 @@
 				font-size: 1.3rem;
 				border-radius: 10px 10px 0 10px;
 			}
+			textarea:focus::-webkit-input-placeholder {
+				color: transparent;
+			}
 			input {
 				width: 100px;
 				margin-left: auto;
